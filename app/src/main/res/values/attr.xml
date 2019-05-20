@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TrackProgressView">
+        <!--这个角度不要太大,太大就会马上被看出来-->
+        <attr name="tpv_baseCircleAngle" format="float"/>
+        <attr name="tpv_baseLineY" format="dimension"/>
+        <attr name="tpv_progressLineHeight" format="dimension"/>
+        <attr name="tpv_quiverAngle" format="float"/>
+        <attr name="tpv_changeAngle" format="float"/>
+        <attr name="tpv_totalColor" format="color"/>
+        <attr name="tpv_progressColor" format="color"/>
+        <attr name="tpv_currentProgress" format="integer"/>
+        <attr name="tpv_maxProgress" format="integer"/>
+        <attr name="tpv_markerRes" format="reference|color"/>
+        <attr name="tpv_markerColor" format="color"/>
+        <attr name="tpv_markerChangeColor" format="boolean"/>
+        <attr name="tpv_markerTextBaseLinePercent" format="float"/>
+        <attr name="tpv_textColor" format="color"/>
+        <attr name="tpv_textSize" format="dimension"/>
+        <attr name="tpv_textHorizontalPadding" format="dimension"/>
+        <attr name="tpv_maxJumpHeight" format="float"/>
+        <attr name="tpv_changeHeight" format="float"/>
+    </declare-styleable>
+</resources>
